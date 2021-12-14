@@ -1,0 +1,25 @@
+{
+  "name": "calcudoraejemploci-cd",
+  "version": "1.0.0",
+  "description": "Calculadora aplicada a ci-cd",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dsotofuya/CalcudoraEjemploCI-CD.git"
+  },
+  "author": "Daniel Soto Fuya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dsotofuya/CalcudoraEjemploCI-CD/issues"
+  },
+  "homepage": "https://github.com/Dsotofuya/CalcudoraEjemploCI-CD#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }, 
+  "jest":{
+    "testEnviroment":"node"
+  }
+}
