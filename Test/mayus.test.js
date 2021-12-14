@@ -23,3 +23,10 @@ describe('resta numeros', () => {
             expect(result).toBe(3)
     })
 })
+
+describe('resta numeros erronea ', () => {
+    test('prueba debería ser 6 - 3 = 3', () => {
+        const result = resolver("-", '6','3')
+        expect(result).toBe(88)
+})
+})
